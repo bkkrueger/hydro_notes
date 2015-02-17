@@ -1,4 +1,8 @@
-These notes are lifted (with the occasional tweak for my own preferences) from an article I found online: [[http://www.nomachetejuggling.com/2012/05/15/personal-wiki-using-github-and-gollum-on-os-x/]]  I have reproduced the text here, in case it ever disappears.  If this is a problem, I hope that the owner of the page will contact me.
+These notes are lifted (with the occasional tweak for my own preferences) from an article I found online at
+
+`http://www.nomachetejuggling.com/2012/05/15/personal-wiki-using-github-and-gollum-on-os-x/`
+
+I have reproduced the text here, in case it ever disappears.  If this is a problem, I hope that the owner of the page will contact me.
 
 Currently the only changes I've made where to the script that launches Gollum.  I removed the `--css` option (which I _think_ enables custom CSS files that could be modified by any user with privileges to push to the GitHub repository) and added the `--mathjax` option (which enables math through the MathJax library).
 
