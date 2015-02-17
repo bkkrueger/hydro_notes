@@ -1,7 +1,5 @@
-Test page
+This is my personal wiki for notes on computational hydrodynamics.  This will be a long-evolving process, as I put things together.  Don't expect this to be absolutely correct; I fully expect that I'll get things wrong on here, and I also expect half-finished thoughts will end up here before I have a chance to flesh them out and check them for accuracy.  So take this all with a grain of salt.
 
-Square brackets math: \\\[ \gamma \ll \frac{\partial f}{\partial x} \\\]
+This wiki was created with [[Gollum|https://github.com/gollum/gollum]].  I found (and occasionally tweak) some notes on [[installing Gollum on Mac OSX]].
 
-Parenthesis math: \\\( \vec{\beta} \sim \vec{0} \\\)
-
-Money math: $$ \alpha \to \infty $$
+I'll be developing some logical flow to this, but for now I suppose the best place to start is the article on the [[fluid equations]].
