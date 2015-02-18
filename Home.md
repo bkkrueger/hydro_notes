@@ -2,4 +2,4 @@ This is my personal wiki for notes on computational hydrodynamics.  This will be
 
 This wiki was created with [[Gollum|https://github.com/gollum/gollum]].  I found (and occasionally tweak) some notes on [[installing Gollum on Mac OSX]].  For information on the Markdown format used by Gollum (other formats can be used, but currently I have mine set to Markdown), try [[the Gollum wiki|https://github.com/gollum/gollum/wiki]] and [[Markdown syntax|http://daringfireball.net/projects/markdown/syntax]].
 
-I'll be developing some logical flow to this, but for now I suppose the best place to start is the article on the [[fluid equations]].
+I'll be developing some logical flow to this, but for now I suppose the best place to start is the article on the [[fluid equations|Fluid Equations]].
