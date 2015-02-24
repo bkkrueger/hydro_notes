@@ -1,5 +1,7 @@
 A variety of fluid equations are available, capable of modeling different phenomena.  Common examples include the Euler equations, the Navier-Stokes equations, the viscid and inviscid Burgers's equations, etc.  This will not be an exhaustive discussion of all important fluid equations, but will discuss several important sets of equations.
 
+[[_ToC_]]
+
 # Kinetic Theory #
 
 Many equations of fluid dynamics can be derived from kinetic theory.  In order to do so, we will begin with the Boltzmann equation, which is commonly used in transport applications.<a name="footmark1"></a>[<sup>\[1\]</sup>](#footnote1)  The Boltzmann equation describes the evolution of a distribution function \\\(f\\\), which specifies the number density of particles in a given segment of a six-dimensional space: three position dimensions (\\\(\vec{\boldsymbol{x}}\\\), often referred to as coordinate or configuration space) and three motion dimensions (\\\(\vec{\boldsymbol{v}}\\\) or \\\(\vec{\boldsymbol{p}}\\\), often referred to as either velocity or momentum space, depending on the basis you choose).  Thus the units of \\\(f\\\) are m<sup>-6</sup> s<sup>3</sup>.  The Boltmann equation is
