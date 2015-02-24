@@ -25,8 +25,13 @@ the viscous stress tensor
 $$\tens{\tau} = - \left( \rho \left< \vect{w} \vect{w} \right> - P \tens{I} \right),$$
 the specific internal energy
 $$\eint = \half \left< \left| \vect{w} \right|^2 \right>,$$
-and the specific total energy
-$$ e = \eint + \half \vect{u} \dotprod \vect{u}.$$
+the specific total energy
+$$ e = \eint + \half \vect{u} \dotprod \vect{u}$$
+and the conductive heat flux
+$$\vect{q} = \half \rho \left< \vect{w} \left| \vect{w} \right|^2 \right>.$$
+In place of the conductive heat flux, some authors prefer to formulate the equations using the rate of viscous dissipation:
+$$ \Psi = \tens{\tau} : \left( \del_x \vect{u} \right).$$
+Note that these equations imply a particular relationship between the internal energy and the pressure; this will be discussed later.
 
 # Footnotes #
 
