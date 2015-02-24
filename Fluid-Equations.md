@@ -8,9 +8,14 @@ The Boltmann equation is
 $$\frac{\partial f}{\partial t} + \vect{\nabla}_x \\!\cdot\\! \left( \dot{\vect{x}} \\, f \right) + \vect{\nabla}_v \\!\cdot\\! \left( \dot{\vect{v}} \\, f \right) = \mathcal{C} \\! \left[ f \right].$$
 The right-hand side \\\(\mathcal{C}\\!\left[f\right]\\\) is the collision operator.  Because \\\(\dot{\vect{x}} = \vect{v}\\\), which are independent variables, space and velocity operations are interchangeable.<a name="footmark2"></a>[<sup>\[2\]</sup>](#footnote2)  We additionally define the acceleration \\\(\vect{a} = \dot{\vect{v}}\\\) and assume that it has zero velocity-divergence.<a name="footmark3"></a>[<sup>\[3\]</sup>](#footnote3)<a name="footmark4"></a>[<sup>\[4\]</sup>](#footnote4)  In order to derive fluid equations from the Boltzmann equation, you take velocity moments.
 
-## Zeroth Moment ##
+## Important Quantities for Velocity Moments ##
 
-The distribution function is normalized
+We have already shown that the number density is the integral of the distribution function over velocity space.  We will use this to define average quantities:
+$$$\left<q\right> = \frac{1}{n} \iiint q f \, \mathrm{d}^3 v.$$$
+Some authors will define a normalized distribution function \\\(P = f / n\\\) in order to simplify this notation.
+
+The velocity will be split into its average value and its deviations from the average:
+$$$\vect{v} = \left<\vect{v}\right> + \left(\vect{v} - \left<\vect{v}\right>\right) = \vect{u} + \vect{w}.$$$
 
 # Footnotes #
 
