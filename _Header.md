@@ -23,7 +23,7 @@
 \\\)
 <!--- \newcommand{\tens}[1]{\boldsymbol{\overset{{}_\leftrightarrow}{\mathsf{#1}}}} -->
 \\\(
-\newcommand{\tens}[1]{\mathop{#1}^{{}_\leftrightarrow}}
+\newcommand{\tens}[1]{\mathop{#1}^{\leftrightarrow}}
 \\\)
 \\\(
 \newcommand{\del}{\vect{\nabla}}
