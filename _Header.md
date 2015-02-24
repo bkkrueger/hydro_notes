@@ -22,7 +22,7 @@
 \newcommand{\vect}[1]{\vec{\boldsymbol{#1}}}
 \\\)
 \\\(
-\newcommand{\tens}[1]{\boldsymbol{\overset{{}_\leftrightarrow}{\mathsf{#1}}}}
+\newcommand{\tens}[1]{\boldsymbol{\stackrel{{}_\leftrightarrow}{\mathsf{#1}}}}
 \\\)
 \\\(
 \newcommand{\del}{\vect{\nabla}}
