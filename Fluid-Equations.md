@@ -6,6 +6,8 @@ Many equations of fluid dynamics can be derived from kinetic theory.  In order t
 $$\frac{\partial f}{\partial t} + \vect{\nabla}_x \\!\cdot\\! \left( \dot{\vect{x}} \\, f \right) + \vect{\nabla}_v \\!\cdot\\! \left( \dot{\vect{v}} \\, f \right) = \mathcal{C} \\! \left[ f \right].$$
 The right-hand side \\\(\mathcal{C}\\!\left[f\right]\\\) is the collision operator.  Because \\\(\dot{\vect{x}} = \vect{v}\\\), which are independent variables, space and velocity operations are interchangeable.<a name="footmark2"></a>[<sup>\[2\]</sup>](#footnote2)  We additionally define the acceleration \\\(\vect{a}\\\).
 
+test tensor: \\\(\tens{\sigma}\\\)
+
 # Footnotes #
 
 <a name="footnote1"></a>[<sup>\[1\]</sup>](#footmark1) The Boltzmann equation itself can be derived from the Klimontovich or Liouville equations, making use of the BBGKY hierarchy, but we won't go that deep.  Those interested can find such discussions in various books on kinetic theory and plasma physics, such as _Introduction to Plasma Theory_ by Dwight R. Nicholson (John Wiley & Sons, 1983).
