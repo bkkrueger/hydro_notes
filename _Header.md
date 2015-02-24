@@ -5,7 +5,7 @@
 \\\( \newcommand{\pdern}[3]{\derivative{\partial}{#1}{#2}{#3}} \\\)
 \\\( \newcommand{\unitv}[1]{\boldsymbol{\hat{#1}}} \\\)
 \\\( \newcommand{\vect}[1]{\vec{\boldsymbol{#1}}} \\\)
-\\\( \newcommand{\tens}[1]{\mathop{#1}^{\leftrightarrow}} \\\)
+\\\( \newcommand{\tens}[1]{\mathop{#1}^{\scriptsize\leftrightarrow}} \\\)
 \\\( \newcommand{\del}{\vect{\nabla}} \\\)
 \\\( \newcommand{\delb}[1]{\vect{\nabla}_{\!#1}} \\\)
 \\\( \newcommand{\dotprod}{\!\cdot\!} \\\)
