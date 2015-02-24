@@ -1,6 +1,6 @@
 A variety of fluid equations are available, capable of modeling different phenomena.  Common examples include the Euler equations, the Navier-Stokes equations, the viscid and inviscid Burgers's equations, etc.  This will not be an exhaustive discussion of all important fluid equations, but will discuss several important sets of equations.
 
-[[_ToC_]]
+[[_TOC_]]
 
 # Kinetic Theory #
 
