@@ -8,7 +8,7 @@
 \\\( \newcommand{\tens}[1]{\mathop{#1}^{\scriptsize\leftrightarrow}} \\\)
 \\\( \newcommand{\del}{\vect{\nabla}} \\\)
 \\\( \newcommand{\delb}[1]{\vect{\nabla}_{\!#1}} \\\)
-\\\( \newcommand{\dotprod}{\!\cdot\!} \\\)
+\\\( \newcommand{\dotprod}{\\!\cdot\\!} \\\)
 \\\( \newcommand{\eint}{\varepsilon} \\\)
 \\\( \newcommand{\Eint}{\mathcal{E}} \\\)
 \\\( \newcommand{\mach}{\mathcal{M}} \\\)
