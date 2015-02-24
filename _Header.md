@@ -1,6 +1,3 @@
-\\\(
-\usepackage{amsmath}
-\\\)
 <!--- derivatives -->
 \\\(
 \newcommand{\derivative}[4]{\frac{#1^{#2} #3}{#1 #4^{#2}}}
@@ -25,7 +22,7 @@
 \newcommand{\vect}[1]{\vec{\boldsymbol{#1}}}
 \\\)
 \\\(
-\newcommand{\tens}[1]{\boldsymbol{\overset{{}_\leftrightarrow}{\mathsf{#1}}}}
+%\newcommand{\tens}[1]{\boldsymbol{\overset{{}_\leftrightarrow}{\mathsf{#1}}}}
 \\\)
 \\\(
 \newcommand{\del}{\vect{\nabla}}
