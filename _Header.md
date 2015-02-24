@@ -12,7 +12,7 @@
 \newcommand{\delb}[1]{\vect{\nabla}_{\!#1}}
 \newcommand{\dotprod}{\!\cdot\!}
 
-\newcommand{\eint}{\varepsilon}
+%\newcommand{\eint}{\varepsilon}
 \newcommand{\Eint}{\mathcal{E}}
 \newcommand{\mach}{\mathcal{M}}
 
