@@ -11,11 +11,11 @@ The right-hand side \\\(\mathcal{C}\\!\left[f\right]\\\) is the collision operat
 ## Important Quantities for Velocity Moments ##
 
 We have already shown that the number density is the integral of the distribution function over velocity space.  We will use this to define average quantities:
-$$$\left<q\right> = \frac{1}{n} \iiint q f \, \mathrm{d}^3 v.$$$
+$$\left<q\right> = \frac{1}{n} \iiint q f \, \mathrm{d}^3 v.$$
 Some authors will define a normalized distribution function \\\(P = f / n\\\) in order to simplify this notation.
 
 The velocity will be split into its average value and its deviations from the average:
-$$$\vect{v} = \left<\vect{v}\right> + \left(\vect{v} - \left<\vect{v}\right>\right) = \vect{u} + \vect{w}.$$$
+$$\vect{v} = \left<\vect{v}\right> + \left(\vect{v} - \left<\vect{v}\right>\right) = \vect{u} + \vect{w}.$$
 
 # Footnotes #
 
