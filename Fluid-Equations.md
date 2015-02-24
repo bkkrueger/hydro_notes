@@ -33,6 +33,11 @@ In place of the conductive heat flux, some authors prefer to formulate the equat
 $$ \Psi = \tens{\tau} : \left( \del_x \vect{u} \right).$$
 Note that these equations imply a particular relationship between the internal energy and the pressure; this will be discussed later.
 
+## Zeroth Moment ##
+
+Let us multiply the Boltzmann equation by the per-particle rest mass and then take the zeroth velocity moment:
+$$ \iiint m \pder{f}{t} + \del_x \dotprod \left( \vect{v} \, m\, f \right) + \del_v \dotprod \left( \vect{a} \, m \, f \right) \, \mathrm{d}^3 v = \iiint m \, \mathcal{C}\\!\left[f\right] \, \mathrm{d}^3 v.$$
+
 # Footnotes #
 
 <a name="footnote1"></a>[<sup>\[1\]</sup>](#footmark1) The Boltzmann equation itself can be derived from the Klimontovich or Liouville equations, making use of the BBGKY hierarchy, but we won't go that deep.  Those interested can find such discussions in various books on kinetic theory and plasma physics, such as _Introduction to Plasma Theory_ by Dwight R. Nicholson (John Wiley & Sons, 1983).
