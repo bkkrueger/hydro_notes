@@ -48,8 +48,15 @@ We are able to move the time derivative outside of the integral because we are i
 The second term makes use of the independence of position and motion:
 $$ \iiint \del_x \dotprod \left( \vect{v} \, m \, f \right) \, \mathrm{d}^3 v
     = \del_x \dotprod \left[ m \iiint \vect{v} \, f \, \mathrm{d}^3 v \right]
-    = \del_x \dotprod \left[ m \, n \, \left< \vect{v} \right> \right]
-    = \del_x \dotprod left( \rho \, \vect{u} \right).$$
+    = \del_x \dotprod \left[ m \, n \left< \vect{v} \right> \right]
+    = \del_x \dotprod \left( \rho \, \vect{u} \right).$$
+
+For the third term:
+$$ \iiint \del_v \dotprod \left( \vect{a} \, m \, f \right) \, \mathrm{d}^3 v
+    = \oiint m \, f \, \vect{a} \dotprod \unitv{n} \, \mathrm{d}^2 v
+    = m \vect{a} \dotprod \oiint f \, \unitv{n} \, \mathrm{d}^2 v
+    = 0.$$
+We have used the divergence theorem to change the volume integral of a divergence into a surface integral.  Do not confuse the unit vector normal to the surface of integration (\\\(\unitv{n}\\\)) with the number density (\\\(n\\\)).  This integral goes to zero because the surface surrounding an infinite space is out at \\\(\left|\vect{v}\right| \to \infty\\\), and the distribution function goes to zero in this limit (there are no particles moving with infinite velocity; even if we were using momentum or celerity, which are not bound by the speed-of-light limit, there would still be no particles with infinite kinetic energy).
 
 # Footnotes #
 

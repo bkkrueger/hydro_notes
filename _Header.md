@@ -15,5 +15,4 @@
 \\\( \newcommand{\half}{\frac{1}{2}} \\\)
 \\\( \newcommand{\avg}[1]{\left<#1\right>} \\\)
 \\\( \newcommand{\order}[1]{\mathcal{O}\left(#1\right)} \\\)
-\\\( \newcommand{\oiint}{\unicode{x222F}\,} \\\)
 [[_TOC_]]
