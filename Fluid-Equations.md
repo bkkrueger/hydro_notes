@@ -43,6 +43,13 @@ $$ \iiint m \pder{f}{t} \, \mathrm{d}^3 v
     = \pder{}{t} \left[ m \iiint f \, \mathrm{d}^3 v \right]
     = \pder{}{t} \left[ m \, n \right]
     = \pder{\rho}{t}. $$
+We are able to move the time derivative outside of the integral because we are integrating over all velocity space, so the control volume is time-independent.
+
+The second term makes use of the independence of position and motion:
+$$ \iiint \del_x \dotprod \left( \vect{v} \, m \, f \right) \, \mathrm{d}^3 v
+    = \del_x \dotprod \left[ m \iiint \vect{v} \, f \, \mathrm{d}^3 v \right]
+    = \del_x \dotprod \left[ m \, n \, \left< \vect{v} \right> \right]
+    = \del_x \dotprod left( \rho \, \vect{u} \right).$$
 
 # Footnotes #
 
